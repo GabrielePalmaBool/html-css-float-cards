@@ -61,15 +61,15 @@ header > p, h1{
 
 .col > h2 {
     color: red;
-    margin: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
 }
 
 .col > .rule {
     color: white;
-    margin: 60px 0px 0px 10px;
+    padding: 60px 0px 0px 10px;
 }
 
 .col > span.Span_ev {
     color: rgb(0, 139, 253);
-    margin: 95px 0px 0px 10px;
+    padding: 95px 0px 0px 10px;
 }
