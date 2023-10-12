@@ -49,15 +49,14 @@ header > p, h1{
 
 /* Stili immagini */
 
-#img {
+.img {
     float: left; 
-   
+    width: 50%;
 }
 
 /* stili comuni a h2 e span */
 .col > h2, span {
     float: left; 
-    width: 50%;
 }
 
 .col > h2 {
@@ -67,10 +66,10 @@ header > p, h1{
 
 .col > .rule {
     color: white;
-    margin: 50px 0px 0px 10px;
+    margin: 60px 0px 0px 10px;
 }
 
 .col > span.Span_ev {
     color: rgb(0, 139, 253);
-    margin: 50px 0px 0px 10px;
+    margin: 95px 0px 0px 10px;
 }
