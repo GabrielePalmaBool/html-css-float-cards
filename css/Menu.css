@@ -112,6 +112,7 @@ header > p, h1{
 }
 
 .item > .container_flex1 a{
-    padding: 50px 0px 0px 10px;
-    font-size: 15px;
+    padding: 45px 0px 0px 10px;
+    font-size: 20px;
+    color: rgb(0, 139, 253);
 }
