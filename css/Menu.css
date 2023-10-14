@@ -49,9 +49,8 @@ header > p, h1{
 
 /* Stili immagini */
 
-.img {
-    float: left; 
-    width: 50%;
+.col > .img {
+    float: left;   
 }
 
 /* stili comuni a h2 e span */
@@ -72,4 +71,47 @@ header > p, h1{
 .col > span.Span_ev {
     color: rgb(0, 139, 253);
     padding: 95px 0px 0px 10px;
+}
+
+
+/*-------------------------- elementi fexbox ------------------------------------- */
+
+.container_flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  righe */
+.container_flex > .item { 
+    background-color: rgb(5, 5, 155);
+    color: white;
+    min-width: 505px;
+}
+
+.item >  img {
+    width: 30%;
+    float: left;
+}
+
+/* colonne */
+
+.item > .container_flex1 h3{
+    padding-left: 10px; 
+    font-size: 20px;
+    
+}
+
+.item > .container_flex1 span{
+    padding: 40px 0px 0px 10px;
+    font-size: 15px;
+}
+
+.item > .container_flex1 a{
+    padding: 50px 0px 0px 10px;
+    font-size: 15px;
 }
